@@ -377,6 +377,23 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
+header .user img{
+
+  animation: ripples 1s linear infinite;
+  animation-play-state: running;
+  opacity: 1;
+  visibility: visible;
+  transition: 5ms;
+  transform: scale(1);
+}
+
+
+
+@keyframes ripples {
+  to {
+    box-shadow: 0 0 0 10px rgba(247, 202, 24, 0.8);
+  }
+}
 
 
 
